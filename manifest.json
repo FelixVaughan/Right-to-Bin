@@ -11,6 +11,9 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Remove from History"
+    "default_title": "Remove from History",
+    "default_icon": {
+      "16": "icon.png"
+    }
   }
 }
