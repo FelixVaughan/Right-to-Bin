@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Right\u2011Click: Remove Link from History",
+  "version": "1.0.0",
+  "description": "Right\u2011click a link and remove that URL (and tracking-param variants) from your Chrome history.",
+  "permissions": [
+    "history",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Remove from History"
+  }
+}
